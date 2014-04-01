@@ -1,3 +1,3 @@
-# iOs ClickChick Login Interface
+# iOs ClickChic Login Interface
 
 Desarrollado por © Roberto Marco Sánchez 2014
