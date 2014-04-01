@@ -19,6 +19,13 @@
 		413BAF7818EAC8E00034BFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF6018EAC8E00034BFC8 /* UIKit.framework */; };
 		413BAF8018EAC8E00034BFC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF7E18EAC8E00034BFC8 /* InfoPlist.strings */; };
 		413BAF8218EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF8118EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m */; };
+		413BAF8F18EACAB60034BFC8 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF8D18EACAB60034BFC8 /* SignInViewController.m */; };
+		413BAF9018EACAB60034BFC8 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF8E18EACAB60034BFC8 /* SignInViewController.xib */; };
+		413BAF9718EACB080034BFC8 /* UICustomize.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF9618EACB080034BFC8 /* UICustomize.m */; };
+		413BAF9A18EAD07D0034BFC8 /* signin_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF9918EAD07D0034BFC8 /* signin_bg.png */; };
+		413BAFA018EADA9A0034BFC8 /* UIColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF9F18EADA9A0034BFC8 /* UIColors.m */; };
+		413BAFA518EAE6A60034BFC8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAFA418EAE6A60034BFC8 /* User.m */; };
+		413BAFA818EAE7740034BFC8 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAFA718EAE7740034BFC8 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,18 @@
 		413BAF7D18EAC8E00034BFC8 /* iOs_ClickChickLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOs_ClickChickLoginTests-Info.plist"; sourceTree = "<group>"; };
 		413BAF7F18EAC8E00034BFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		413BAF8118EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOs_ClickChickLoginTests.m; sourceTree = "<group>"; };
+		413BAF8C18EACAB60034BFC8 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = Classses/ViewControllers/SignInViewController.h; sourceTree = "<group>"; };
+		413BAF8D18EACAB60034BFC8 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = Classses/ViewControllers/SignInViewController.m; sourceTree = "<group>"; };
+		413BAF8E18EACAB60034BFC8 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignInViewController.xib; path = Classses/ViewControllers/SignInViewController.xib; sourceTree = "<group>"; };
+		413BAF9518EACB080034BFC8 /* UICustomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICustomize.h; path = Classses/Objects/UICustomize.h; sourceTree = "<group>"; };
+		413BAF9618EACB080034BFC8 /* UICustomize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICustomize.m; path = Classses/Objects/UICustomize.m; sourceTree = "<group>"; };
+		413BAF9918EAD07D0034BFC8 /* signin_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin_bg.png; sourceTree = "<group>"; };
+		413BAF9E18EADA9A0034BFC8 /* UIColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIColors.h; path = Classses/Objects/UIColors.h; sourceTree = "<group>"; };
+		413BAF9F18EADA9A0034BFC8 /* UIColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIColors.m; path = Classses/Objects/UIColors.m; sourceTree = "<group>"; };
+		413BAFA318EAE6A60034BFC8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Classses/Objects/User.h; sourceTree = "<group>"; };
+		413BAFA418EAE6A60034BFC8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Classses/Objects/User.m; sourceTree = "<group>"; };
+		413BAFA618EAE7740034BFC8 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Classses/Objects/Product.h; sourceTree = "<group>"; };
+		413BAFA718EAE7740034BFC8 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Classses/Objects/Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +126,8 @@
 		413BAF6218EAC8E00034BFC8 /* iOs_ClickChickLogin */ = {
 			isa = PBXGroup;
 			children = (
+				413BAF9418EACAF10034BFC8 /* Objects */,
+				413BAF9318EACAE20034BFC8 /* Resources */,
 				413BAF8B18EAC8F60034BFC8 /* SignInViewController */,
 				413BAF6B18EAC8E00034BFC8 /* AppDelegate.h */,
 				413BAF6C18EAC8E00034BFC8 /* AppDelegate.m */,
@@ -148,8 +169,58 @@
 		413BAF8B18EAC8F60034BFC8 /* SignInViewController */ = {
 			isa = PBXGroup;
 			children = (
+				413BAF8C18EACAB60034BFC8 /* SignInViewController.h */,
+				413BAF8D18EACAB60034BFC8 /* SignInViewController.m */,
+				413BAF8E18EACAB60034BFC8 /* SignInViewController.xib */,
 			);
 			name = SignInViewController;
+			sourceTree = "<group>";
+		};
+		413BAF9318EACAE20034BFC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF9818EAD07D0034BFC8 /* img */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		413BAF9418EACAF10034BFC8 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				413BAFA218EAE6890034BFC8 /* UIDesign */,
+				413BAFA118EAE6840034BFC8 /* Models */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		413BAF9818EAD07D0034BFC8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF9918EAD07D0034BFC8 /* signin_bg.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		413BAFA118EAE6840034BFC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				413BAFA318EAE6A60034BFC8 /* User.h */,
+				413BAFA418EAE6A60034BFC8 /* User.m */,
+				413BAFA618EAE7740034BFC8 /* Product.h */,
+				413BAFA718EAE7740034BFC8 /* Product.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		413BAFA218EAE6890034BFC8 /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF9518EACB080034BFC8 /* UICustomize.h */,
+				413BAF9618EACB080034BFC8 /* UICustomize.m */,
+				413BAF9E18EADA9A0034BFC8 /* UIColors.h */,
+				413BAF9F18EADA9A0034BFC8 /* UIColors.m */,
+			);
+			name = UIDesign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413BAF9A18EAD07D0034BFC8 /* signin_bg.png in Resources */,
 				413BAF6718EAC8E00034BFC8 /* InfoPlist.strings in Resources */,
+				413BAF9018EACAB60034BFC8 /* SignInViewController.xib in Resources */,
 				413BAF6F18EAC8E00034BFC8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413BAFA818EAE7740034BFC8 /* Product.m in Sources */,
 				413BAF6D18EAC8E00034BFC8 /* AppDelegate.m in Sources */,
+				413BAF9718EACB080034BFC8 /* UICustomize.m in Sources */,
+				413BAFA518EAE6A60034BFC8 /* User.m in Sources */,
+				413BAF8F18EACAB60034BFC8 /* SignInViewController.m in Sources */,
+				413BAFA018EADA9A0034BFC8 /* UIColors.m in Sources */,
 				413BAF6918EAC8E00034BFC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
