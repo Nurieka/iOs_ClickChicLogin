@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413BAF5D18EAC8E00034BFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF5C18EAC8E00034BFC8 /* Foundation.framework */; };
+		413BAF5F18EAC8E00034BFC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */; };
+		413BAF6118EAC8E00034BFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF6018EAC8E00034BFC8 /* UIKit.framework */; };
+		413BAF6718EAC8E00034BFC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF6518EAC8E00034BFC8 /* InfoPlist.strings */; };
+		413BAF6918EAC8E00034BFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF6818EAC8E00034BFC8 /* main.m */; };
+		413BAF6D18EAC8E00034BFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF6C18EAC8E00034BFC8 /* AppDelegate.m */; };
+		413BAF6F18EAC8E00034BFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF6E18EAC8E00034BFC8 /* Images.xcassets */; };
+		413BAF7618EAC8E00034BFC8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF7518EAC8E00034BFC8 /* XCTest.framework */; };
+		413BAF7718EAC8E00034BFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF5C18EAC8E00034BFC8 /* Foundation.framework */; };
+		413BAF7818EAC8E00034BFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF6018EAC8E00034BFC8 /* UIKit.framework */; };
+		413BAF8018EAC8E00034BFC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 413BAF7E18EAC8E00034BFC8 /* InfoPlist.strings */; };
+		413BAF8218EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF8118EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		413BAF7918EAC8E00034BFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413BAF5118EAC8E00034BFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413BAF5818EAC8E00034BFC8;
+			remoteInfo = iOs_ClickChickLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		413BAF5918EAC8E00034BFC8 /* iOs_ClickChickLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOs_ClickChickLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BAF5C18EAC8E00034BFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		413BAF6018EAC8E00034BFC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		413BAF6418EAC8E00034BFC8 /* iOs_ClickChickLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOs_ClickChickLogin-Info.plist"; sourceTree = "<group>"; };
+		413BAF6618EAC8E00034BFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		413BAF6818EAC8E00034BFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		413BAF6A18EAC8E00034BFC8 /* iOs_ClickChickLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOs_ClickChickLogin-Prefix.pch"; sourceTree = "<group>"; };
+		413BAF6B18EAC8E00034BFC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		413BAF6C18EAC8E00034BFC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		413BAF6E18EAC8E00034BFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		413BAF7418EAC8E00034BFC8 /* iOs_ClickChickLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOs_ClickChickLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BAF7518EAC8E00034BFC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		413BAF7D18EAC8E00034BFC8 /* iOs_ClickChickLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOs_ClickChickLoginTests-Info.plist"; sourceTree = "<group>"; };
+		413BAF7F18EAC8E00034BFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		413BAF8118EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOs_ClickChickLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413BAF5618EAC8E00034BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF5F18EAC8E00034BFC8 /* CoreGraphics.framework in Frameworks */,
+				413BAF6118EAC8E00034BFC8 /* UIKit.framework in Frameworks */,
+				413BAF5D18EAC8E00034BFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAF7118EAC8E00034BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF7618EAC8E00034BFC8 /* XCTest.framework in Frameworks */,
+				413BAF7818EAC8E00034BFC8 /* UIKit.framework in Frameworks */,
+				413BAF7718EAC8E00034BFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413BAF5018EAC8E00034BFC8 = {
+			isa = PBXGroup;
+			children = (
+				413BAF6218EAC8E00034BFC8 /* iOs_ClickChickLogin */,
+				413BAF7B18EAC8E00034BFC8 /* iOs_ClickChickLoginTests */,
+				413BAF5B18EAC8E00034BFC8 /* Frameworks */,
+				413BAF5A18EAC8E00034BFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		413BAF5A18EAC8E00034BFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF5918EAC8E00034BFC8 /* iOs_ClickChickLogin.app */,
+				413BAF7418EAC8E00034BFC8 /* iOs_ClickChickLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413BAF5B18EAC8E00034BFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF5C18EAC8E00034BFC8 /* Foundation.framework */,
+				413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */,
+				413BAF6018EAC8E00034BFC8 /* UIKit.framework */,
+				413BAF7518EAC8E00034BFC8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		413BAF6218EAC8E00034BFC8 /* iOs_ClickChickLogin */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF8B18EAC8F60034BFC8 /* SignInViewController */,
+				413BAF6B18EAC8E00034BFC8 /* AppDelegate.h */,
+				413BAF6C18EAC8E00034BFC8 /* AppDelegate.m */,
+				413BAF6E18EAC8E00034BFC8 /* Images.xcassets */,
+				413BAF6318EAC8E00034BFC8 /* Supporting Files */,
+			);
+			path = iOs_ClickChickLogin;
+			sourceTree = "<group>";
+		};
+		413BAF6318EAC8E00034BFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF6418EAC8E00034BFC8 /* iOs_ClickChickLogin-Info.plist */,
+				413BAF6518EAC8E00034BFC8 /* InfoPlist.strings */,
+				413BAF6818EAC8E00034BFC8 /* main.m */,
+				413BAF6A18EAC8E00034BFC8 /* iOs_ClickChickLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413BAF7B18EAC8E00034BFC8 /* iOs_ClickChickLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF8118EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m */,
+				413BAF7C18EAC8E00034BFC8 /* Supporting Files */,
+			);
+			path = iOs_ClickChickLoginTests;
+			sourceTree = "<group>";
+		};
+		413BAF7C18EAC8E00034BFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413BAF7D18EAC8E00034BFC8 /* iOs_ClickChickLoginTests-Info.plist */,
+				413BAF7E18EAC8E00034BFC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413BAF8B18EAC8F60034BFC8 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SignInViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413BAF5818EAC8E00034BFC8 /* iOs_ClickChickLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAF8518EAC8E00034BFC8 /* Build configuration list for PBXNativeTarget "iOs_ClickChickLogin" */;
+			buildPhases = (
+				413BAF5518EAC8E00034BFC8 /* Sources */,
+				413BAF5618EAC8E00034BFC8 /* Frameworks */,
+				413BAF5718EAC8E00034BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOs_ClickChickLogin;
+			productName = iOs_ClickChickLogin;
+			productReference = 413BAF5918EAC8E00034BFC8 /* iOs_ClickChickLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		413BAF7318EAC8E00034BFC8 /* iOs_ClickChickLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAF8818EAC8E00034BFC8 /* Build configuration list for PBXNativeTarget "iOs_ClickChickLoginTests" */;
+			buildPhases = (
+				413BAF7018EAC8E00034BFC8 /* Sources */,
+				413BAF7118EAC8E00034BFC8 /* Frameworks */,
+				413BAF7218EAC8E00034BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413BAF7A18EAC8E00034BFC8 /* PBXTargetDependency */,
+			);
+			name = iOs_ClickChickLoginTests;
+			productName = iOs_ClickChickLoginTests;
+			productReference = 413BAF7418EAC8E00034BFC8 /* iOs_ClickChickLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413BAF5118EAC8E00034BFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Roberto Marco";
+				TargetAttributes = {
+					413BAF7318EAC8E00034BFC8 = {
+						TestTargetID = 413BAF5818EAC8E00034BFC8;
+					};
+				};
+			};
+			buildConfigurationList = 413BAF5418EAC8E00034BFC8 /* Build configuration list for PBXProject "iOs_ClickChickLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 413BAF5018EAC8E00034BFC8;
+			productRefGroup = 413BAF5A18EAC8E00034BFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413BAF5818EAC8E00034BFC8 /* iOs_ClickChickLogin */,
+				413BAF7318EAC8E00034BFC8 /* iOs_ClickChickLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		413BAF5718EAC8E00034BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF6718EAC8E00034BFC8 /* InfoPlist.strings in Resources */,
+				413BAF6F18EAC8E00034BFC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAF7218EAC8E00034BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF8018EAC8E00034BFC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		413BAF5518EAC8E00034BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF6D18EAC8E00034BFC8 /* AppDelegate.m in Sources */,
+				413BAF6918EAC8E00034BFC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAF7018EAC8E00034BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAF8218EAC8E00034BFC8 /* iOs_ClickChickLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		413BAF7A18EAC8E00034BFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413BAF5818EAC8E00034BFC8 /* iOs_ClickChickLogin */;
+			targetProxy = 413BAF7918EAC8E00034BFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		413BAF6518EAC8E00034BFC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413BAF6618EAC8E00034BFC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		413BAF7E18EAC8E00034BFC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413BAF7F18EAC8E00034BFC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		413BAF8318EAC8E00034BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		413BAF8418EAC8E00034BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		413BAF8618EAC8E00034BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_ClickChickLogin/iOs_ClickChickLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOs_ClickChickLogin/iOs_ClickChickLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		413BAF8718EAC8E00034BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_ClickChickLogin/iOs_ClickChickLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOs_ClickChickLogin/iOs_ClickChickLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		413BAF8918EAC8E00034BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOs_ClickChickLogin.app/iOs_ClickChickLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_ClickChickLogin/iOs_ClickChickLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOs_ClickChickLoginTests/iOs_ClickChickLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		413BAF8A18EAC8E00034BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOs_ClickChickLogin.app/iOs_ClickChickLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_ClickChickLogin/iOs_ClickChickLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOs_ClickChickLoginTests/iOs_ClickChickLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		413BAF5418EAC8E00034BFC8 /* Build configuration list for PBXProject "iOs_ClickChickLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAF8318EAC8E00034BFC8 /* Debug */,
+				413BAF8418EAC8E00034BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413BAF8518EAC8E00034BFC8 /* Build configuration list for PBXNativeTarget "iOs_ClickChickLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAF8618EAC8E00034BFC8 /* Debug */,
+				413BAF8718EAC8E00034BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		413BAF8818EAC8E00034BFC8 /* Build configuration list for PBXNativeTarget "iOs_ClickChickLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAF8918EAC8E00034BFC8 /* Debug */,
+				413BAF8A18EAC8E00034BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 413BAF5118EAC8E00034BFC8 /* Project object */;
+}
