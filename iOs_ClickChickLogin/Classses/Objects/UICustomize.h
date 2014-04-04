@@ -14,4 +14,5 @@
 - (void) setLoginStyleButton:(UIButton*)button color:(UIColor*)color;
 - (void) setLoginStyleTextfield:(UITextField*)textfield;
 - (void) setViewAsShadow:(UIView *)view;
+- (void) setBottomButtom:(UIButton*)button color:(UIColor*)color;
 @end

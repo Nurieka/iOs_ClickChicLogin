@@ -12,7 +12,10 @@
 
 @property (nonatomic, assign) NSInteger user_id;
 @property (nonatomic, strong) NSString *username;
+@property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *password;
-@property (nonatomic, strong) NSDate *created_at;
+
+- (id) initWithParams:(NSInteger)userId_ username:(NSString*)username_
+             password:(NSString*)password_ email:(NSString*)email_;
 
 @end

@@ -8,15 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SignInViewController : UIViewController
+@class JASidePanelController;
 
-@property (weak, nonatomic) IBOutlet UITextField *textfieldUsername;
-@property (weak, nonatomic) IBOutlet UITextField *textfieldPassword;
+@interface SignInViewController : UIViewController <UITextFieldDelegate>
+
+@property (nonatomic,strong) JASidePanelController *viewController;
+
+@property (strong, nonatomic) IBOutlet UITextField *textfieldUsername;
+@property (strong, nonatomic) IBOutlet UITextField *textfieldPassword;
 @property (weak, nonatomic) IBOutlet UIButton *buttonConnect;
 @property (weak, nonatomic) IBOutlet UIButton *buttonFacebook;
 @property (weak, nonatomic) IBOutlet UIView *viewShadowConnect;
 @property (weak, nonatomic) IBOutlet UIView *viewShadowFacebook;
 
 - (IBAction)pushConnect:(id)sender;
+- (IBAction)pushSignUpButton:(id)sender;
 
 @end

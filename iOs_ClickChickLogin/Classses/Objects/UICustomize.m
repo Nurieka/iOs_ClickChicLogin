@@ -40,4 +40,11 @@
     [view.layer setCornerRadius:4];
 }
 
+- (void) setBottomButtom:(UIButton*)button color:(UIColor*)color {
+    [button.layer setBackgroundColor:color.CGColor];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
+    [button setFrame:CGRectMake(button.frame.origin.x, button.frame.origin.y, button.frame.size.width, 45)];
+}
+
 @end

@@ -40,7 +40,7 @@
                     <rect key="frame" x="30" y="250" width="260" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" id="2Tt-OX-x7k">
                     <rect key="frame" x="30" y="201" width="260" height="30"/>
@@ -103,6 +103,9 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" red="0.91372555489999996" green="0.91764712329999998" blue="0.92549026010000002" alpha="1" colorSpace="deviceRGB"/>
                     </state>
+                    <connections>
+                        <action selector="pushSignUpButton:" destination="-1" eventType="touchUpInside" id="cug-Ky-ffo"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -14,14 +14,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
- 
+    
     // Setting up RootViewController
     SignInViewController *signinViewController = [[SignInViewController alloc] initWithNibName:@"SignInViewController" bundle:nil];
     UINavigationController *uiNavigationController = [[UINavigationController alloc] initWithRootViewController:signinViewController];
-    [self.window setRootViewController:uiNavigationController];
     
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //NavigationBar Configuration
+    //[[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
+    //[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [self.window setRootViewController:uiNavigationController];
     [self.window makeKeyAndVisible];
     return YES;
 }

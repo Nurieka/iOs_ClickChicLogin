@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4103920B18EBF807004388B8 /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103920A18EBF807004388B8 /* SQLManager.m */; };
+		4103921518EC022F004388B8 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103921318EC022F004388B8 /* ProductDetailViewController.m */; };
+		4103921618EC022F004388B8 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4103921418EC022F004388B8 /* ProductDetailViewController.xib */; };
+		4103921B18EC53BA004388B8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103921918EC53BA004388B8 /* SignUpViewController.m */; };
+		4103921C18EC53BA004388B8 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4103921A18EC53BA004388B8 /* SignUpViewController.xib */; };
+		4103922018EC767A004388B8 /* dbClickChic.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4103921F18EC767A004388B8 /* dbClickChic.sqlite */; };
+		4103922318EC7F78004388B8 /* FormatError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103922218EC7F78004388B8 /* FormatError.m */; };
+		4103922618ECBA78004388B8 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103922518ECBA78004388B8 /* UserDefaults.m */; };
+		411DBE5318EB4C2000365328 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE5018EB4C2000365328 /* JASidePanelController.m */; };
+		411DBE5418EB4C2000365328 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE5218EB4C2000365328 /* UIViewController+JASidePanel.m */; };
+		411DBE5918EB4CF100365328 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE5718EB4CF100365328 /* SidebarViewController.m */; };
+		411DBE5A18EB4CF100365328 /* SidebarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE5818EB4CF100365328 /* SidebarViewController.xib */; };
+		411DBE5F18EB565900365328 /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE5D18EB565900365328 /* WishListViewController.m */; };
+		411DBE6018EB565900365328 /* WishListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE5E18EB565900365328 /* WishListViewController.xib */; };
+		411DBE6B18EB60D200365328 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE6918EB60D200365328 /* ProductListViewController.m */; };
+		411DBE6C18EB60D200365328 /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE6A18EB60D200365328 /* ProductListViewController.xib */; };
+		411DBE7018EB617200365328 /* CustomProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE6E18EB617200365328 /* CustomProductCell.m */; };
+		411DBE7118EB617200365328 /* CustomProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE6F18EB617200365328 /* CustomProductCell.xib */; };
+		411DBE7318EB64FF00365328 /* product_ribbon in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE7218EB64FF00365328 /* product_ribbon */; };
+		411DBE7918EB67FE00365328 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 411DBE7818EB67FE00365328 /* libsqlite3.0.dylib */; };
+		411DBE8418EB80DE00365328 /* ProductAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DBE8218EB80DE00365328 /* ProductAddViewController.m */; };
+		411DBE8518EB80DE00365328 /* ProductAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411DBE8318EB80DE00365328 /* ProductAddViewController.xib */; };
 		413BAF5D18EAC8E00034BFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF5C18EAC8E00034BFC8 /* Foundation.framework */; };
 		413BAF5F18EAC8E00034BFC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */; };
 		413BAF6118EAC8E00034BFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413BAF6018EAC8E00034BFC8 /* UIKit.framework */; };
@@ -26,6 +48,16 @@
 		413BAFA018EADA9A0034BFC8 /* UIColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAF9F18EADA9A0034BFC8 /* UIColors.m */; };
 		413BAFA518EAE6A60034BFC8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAFA418EAE6A60034BFC8 /* User.m */; };
 		413BAFA818EAE7740034BFC8 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BAFA718EAE7740034BFC8 /* Product.m */; };
+		413BAFB018EB09830034BFC8 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 413BAFAF18EB09830034BFC8 /* reveal-icon.png */; };
+		419F81FF18EEA36C004BCC26 /* CustomSidebarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 419F81FD18EEA36C004BCC26 /* CustomSidebarCell.m */; };
+		419F820018EEA36C004BCC26 /* CustomSidebarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 419F81FE18EEA36C004BCC26 /* CustomSidebarCell.xib */; };
+		419F820518EEA8D7004BCC26 /* sid_prod.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820118EEA8D7004BCC26 /* sid_prod.png */; };
+		419F820618EEA8D7004BCC26 /* sid_quit.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820218EEA8D7004BCC26 /* sid_quit.png */; };
+		419F820718EEA8D7004BCC26 /* sid_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820318EEA8D7004BCC26 /* sid_shop.png */; };
+		419F820818EEA8D7004BCC26 /* sid_trend.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820418EEA8D7004BCC26 /* sid_trend.png */; };
+		419F820C18EEAB23004BCC26 /* prod_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820918EEAB23004BCC26 /* prod_1.png */; };
+		419F820D18EEAB23004BCC26 /* prod_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820A18EEAB23004BCC26 /* prod_2.png */; };
+		419F820E18EEAB23004BCC26 /* prod_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F820B18EEAB23004BCC26 /* prod_3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +71,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4103920918EBF807004388B8 /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLManager.h; path = Classses/Objects/SQLManager.h; sourceTree = "<group>"; };
+		4103920A18EBF807004388B8 /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLManager.m; path = Classses/Objects/SQLManager.m; sourceTree = "<group>"; };
+		4103921218EC022F004388B8 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDetailViewController.h; path = Classses/ViewControllers/ProductDetailViewController.h; sourceTree = "<group>"; };
+		4103921318EC022F004388B8 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDetailViewController.m; path = Classses/ViewControllers/ProductDetailViewController.m; sourceTree = "<group>"; };
+		4103921418EC022F004388B8 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductDetailViewController.xib; path = Classses/ViewControllers/ProductDetailViewController.xib; sourceTree = "<group>"; };
+		4103921818EC53BA004388B8 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Classses/ViewControllers/SignUpViewController.h; sourceTree = "<group>"; };
+		4103921918EC53BA004388B8 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Classses/ViewControllers/SignUpViewController.m; sourceTree = "<group>"; };
+		4103921A18EC53BA004388B8 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignUpViewController.xib; path = Classses/ViewControllers/SignUpViewController.xib; sourceTree = "<group>"; };
+		4103921F18EC767A004388B8 /* dbClickChic.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = dbClickChic.sqlite; sourceTree = "<group>"; };
+		4103922118EC7F78004388B8 /* FormatError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormatError.h; path = Classses/Objects/FormatError.h; sourceTree = "<group>"; };
+		4103922218EC7F78004388B8 /* FormatError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormatError.m; path = Classses/Objects/FormatError.m; sourceTree = "<group>"; };
+		4103922418ECBA78004388B8 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDefaults.h; path = Classses/Objects/UserDefaults.h; sourceTree = "<group>"; };
+		4103922518ECBA78004388B8 /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDefaults.m; path = Classses/Objects/UserDefaults.m; sourceTree = "<group>"; };
+		411DBE4F18EB4C2000365328 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = JASidePanel/JASidePanelController.h; sourceTree = "<group>"; };
+		411DBE5018EB4C2000365328 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = JASidePanel/JASidePanelController.m; sourceTree = "<group>"; };
+		411DBE5118EB4C2000365328 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "JASidePanel/UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		411DBE5218EB4C2000365328 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "JASidePanel/UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		411DBE5618EB4CF100365328 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = Classses/ViewControllers/SidebarViewController.h; sourceTree = "<group>"; };
+		411DBE5718EB4CF100365328 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = Classses/ViewControllers/SidebarViewController.m; sourceTree = "<group>"; };
+		411DBE5818EB4CF100365328 /* SidebarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SidebarViewController.xib; path = Classses/ViewControllers/SidebarViewController.xib; sourceTree = "<group>"; };
+		411DBE5C18EB565900365328 /* WishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WishListViewController.h; path = Classses/ViewControllers/WishListViewController.h; sourceTree = "<group>"; };
+		411DBE5D18EB565900365328 /* WishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WishListViewController.m; path = Classses/ViewControllers/WishListViewController.m; sourceTree = "<group>"; };
+		411DBE5E18EB565900365328 /* WishListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WishListViewController.xib; path = Classses/ViewControllers/WishListViewController.xib; sourceTree = "<group>"; };
+		411DBE6818EB60D200365328 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListViewController.h; path = Classses/ViewControllers/ProductListViewController.h; sourceTree = "<group>"; };
+		411DBE6918EB60D200365328 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListViewController.m; path = Classses/ViewControllers/ProductListViewController.m; sourceTree = "<group>"; };
+		411DBE6A18EB60D200365328 /* ProductListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductListViewController.xib; path = Classses/ViewControllers/ProductListViewController.xib; sourceTree = "<group>"; };
+		411DBE6D18EB617200365328 /* CustomProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomProductCell.h; path = Classses/ViewControllers/CustomProductCell.h; sourceTree = "<group>"; };
+		411DBE6E18EB617200365328 /* CustomProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomProductCell.m; path = Classses/ViewControllers/CustomProductCell.m; sourceTree = "<group>"; };
+		411DBE6F18EB617200365328 /* CustomProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomProductCell.xib; path = Classses/ViewControllers/CustomProductCell.xib; sourceTree = "<group>"; };
+		411DBE7218EB64FF00365328 /* product_ribbon */ = {isa = PBXFileReference; lastKnownFileType = file; path = product_ribbon; sourceTree = "<group>"; };
+		411DBE7818EB67FE00365328 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		411DBE8118EB80DE00365328 /* ProductAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductAddViewController.h; path = Classses/ViewControllers/ProductAddViewController.h; sourceTree = "<group>"; };
+		411DBE8218EB80DE00365328 /* ProductAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductAddViewController.m; path = Classses/ViewControllers/ProductAddViewController.m; sourceTree = "<group>"; };
+		411DBE8318EB80DE00365328 /* ProductAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductAddViewController.xib; path = Classses/ViewControllers/ProductAddViewController.xib; sourceTree = "<group>"; };
 		413BAF5918EAC8E00034BFC8 /* iOs_ClickChickLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOs_ClickChickLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413BAF5C18EAC8E00034BFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +133,17 @@
 		413BAFA418EAE6A60034BFC8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Classses/Objects/User.m; sourceTree = "<group>"; };
 		413BAFA618EAE7740034BFC8 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Classses/Objects/Product.h; sourceTree = "<group>"; };
 		413BAFA718EAE7740034BFC8 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Classses/Objects/Product.m; sourceTree = "<group>"; };
+		413BAFAF18EB09830034BFC8 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		419F81FC18EEA36C004BCC26 /* CustomSidebarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomSidebarCell.h; path = Classses/ViewControllers/CustomSidebarCell.h; sourceTree = "<group>"; };
+		419F81FD18EEA36C004BCC26 /* CustomSidebarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomSidebarCell.m; path = Classses/ViewControllers/CustomSidebarCell.m; sourceTree = "<group>"; };
+		419F81FE18EEA36C004BCC26 /* CustomSidebarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomSidebarCell.xib; path = Classses/ViewControllers/CustomSidebarCell.xib; sourceTree = "<group>"; };
+		419F820118EEA8D7004BCC26 /* sid_prod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sid_prod.png; sourceTree = "<group>"; };
+		419F820218EEA8D7004BCC26 /* sid_quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sid_quit.png; sourceTree = "<group>"; };
+		419F820318EEA8D7004BCC26 /* sid_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sid_shop.png; sourceTree = "<group>"; };
+		419F820418EEA8D7004BCC26 /* sid_trend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sid_trend.png; sourceTree = "<group>"; };
+		419F820918EEAB23004BCC26 /* prod_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prod_1.png; sourceTree = "<group>"; };
+		419F820A18EEAB23004BCC26 /* prod_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prod_2.png; sourceTree = "<group>"; };
+		419F820B18EEAB23004BCC26 /* prod_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prod_3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411DBE7918EB67FE00365328 /* libsqlite3.0.dylib in Frameworks */,
 				413BAF5F18EAC8E00034BFC8 /* CoreGraphics.framework in Frameworks */,
 				413BAF6118EAC8E00034BFC8 /* UIKit.framework in Frameworks */,
 				413BAF5D18EAC8E00034BFC8 /* Foundation.framework in Frameworks */,
@@ -93,6 +171,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4103920E18EC01D0004388B8 /* ProductAddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				411DBE8118EB80DE00365328 /* ProductAddViewController.h */,
+				411DBE8218EB80DE00365328 /* ProductAddViewController.m */,
+				411DBE8318EB80DE00365328 /* ProductAddViewController.xib */,
+			);
+			name = ProductAddViewController;
+			sourceTree = "<group>";
+		};
+		4103920F18EC01E0004388B8 /* ProductListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				411DBE6818EB60D200365328 /* ProductListViewController.h */,
+				411DBE6918EB60D200365328 /* ProductListViewController.m */,
+				411DBE6A18EB60D200365328 /* ProductListViewController.xib */,
+				411DBE6D18EB617200365328 /* CustomProductCell.h */,
+				411DBE6E18EB617200365328 /* CustomProductCell.m */,
+				411DBE6F18EB617200365328 /* CustomProductCell.xib */,
+			);
+			name = ProductListViewController;
+			sourceTree = "<group>";
+		};
+		4103921118EC020A004388B8 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4103921218EC022F004388B8 /* ProductDetailViewController.h */,
+				4103921318EC022F004388B8 /* ProductDetailViewController.m */,
+				4103921418EC022F004388B8 /* ProductDetailViewController.xib */,
+			);
+			name = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		4103921718EC5399004388B8 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4103921818EC53BA004388B8 /* SignUpViewController.h */,
+				4103921918EC53BA004388B8 /* SignUpViewController.m */,
+				4103921A18EC53BA004388B8 /* SignUpViewController.xib */,
+			);
+			name = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		411DBE4E18EB4C0C00365328 /* JASidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				411DBE4F18EB4C2000365328 /* JASidePanelController.h */,
+				411DBE5018EB4C2000365328 /* JASidePanelController.m */,
+				411DBE5118EB4C2000365328 /* UIViewController+JASidePanel.h */,
+				411DBE5218EB4C2000365328 /* UIViewController+JASidePanel.m */,
+			);
+			name = JASidePanel;
+			sourceTree = "<group>";
+		};
+		411DBE5518EB4CD800365328 /* SidebarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				411DBE5618EB4CF100365328 /* SidebarViewController.h */,
+				411DBE5718EB4CF100365328 /* SidebarViewController.m */,
+				411DBE5818EB4CF100365328 /* SidebarViewController.xib */,
+				419F81FC18EEA36C004BCC26 /* CustomSidebarCell.h */,
+				419F81FD18EEA36C004BCC26 /* CustomSidebarCell.m */,
+				419F81FE18EEA36C004BCC26 /* CustomSidebarCell.xib */,
+			);
+			name = SidebarViewController;
+			sourceTree = "<group>";
+		};
+		411DBE5B18EB564000365328 /* WishListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				411DBE5C18EB565900365328 /* WishListViewController.h */,
+				411DBE5D18EB565900365328 /* WishListViewController.m */,
+				411DBE5E18EB565900365328 /* WishListViewController.xib */,
+			);
+			name = WishListViewController;
+			sourceTree = "<group>";
+		};
+		411DBE7518EB67AD00365328 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4103921F18EC767A004388B8 /* dbClickChic.sqlite */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		413BAF5018EAC8E00034BFC8 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +278,7 @@
 		413BAF5B18EAC8E00034BFC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				411DBE7818EB67FE00365328 /* libsqlite3.0.dylib */,
 				413BAF5C18EAC8E00034BFC8 /* Foundation.framework */,
 				413BAF5E18EAC8E00034BFC8 /* CoreGraphics.framework */,
 				413BAF6018EAC8E00034BFC8 /* UIKit.framework */,
@@ -126,9 +290,15 @@
 		413BAF6218EAC8E00034BFC8 /* iOs_ClickChickLogin */ = {
 			isa = PBXGroup;
 			children = (
+				411DBE7518EB67AD00365328 /* Data */,
 				413BAF9418EACAF10034BFC8 /* Objects */,
 				413BAF9318EACAE20034BFC8 /* Resources */,
+				413BAFB218EB099A0034BFC8 /* Lib */,
 				413BAF8B18EAC8F60034BFC8 /* SignInViewController */,
+				4103921718EC5399004388B8 /* SignUpViewController */,
+				411DBE5518EB4CD800365328 /* SidebarViewController */,
+				413BAFAE18EAE8AC0034BFC8 /* ProductViewControllers */,
+				411DBE5B18EB564000365328 /* WishListViewController */,
 				413BAF6B18EAC8E00034BFC8 /* AppDelegate.h */,
 				413BAF6C18EAC8E00034BFC8 /* AppDelegate.m */,
 				413BAF6E18EAC8E00034BFC8 /* Images.xcassets */,
@@ -187,8 +357,20 @@
 		413BAF9418EACAF10034BFC8 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				413BAFA218EAE6890034BFC8 /* UIDesign */,
-				413BAFA118EAE6840034BFC8 /* Models */,
+				413BAF9518EACB080034BFC8 /* UICustomize.h */,
+				413BAF9618EACB080034BFC8 /* UICustomize.m */,
+				413BAF9E18EADA9A0034BFC8 /* UIColors.h */,
+				413BAF9F18EADA9A0034BFC8 /* UIColors.m */,
+				413BAFA318EAE6A60034BFC8 /* User.h */,
+				413BAFA418EAE6A60034BFC8 /* User.m */,
+				413BAFA618EAE7740034BFC8 /* Product.h */,
+				413BAFA718EAE7740034BFC8 /* Product.m */,
+				4103920918EBF807004388B8 /* SQLManager.h */,
+				4103920A18EBF807004388B8 /* SQLManager.m */,
+				4103922118EC7F78004388B8 /* FormatError.h */,
+				4103922218EC7F78004388B8 /* FormatError.m */,
+				4103922418ECBA78004388B8 /* UserDefaults.h */,
+				4103922518ECBA78004388B8 /* UserDefaults.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -196,31 +378,36 @@
 		413BAF9818EAD07D0034BFC8 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				419F820918EEAB23004BCC26 /* prod_1.png */,
+				419F820A18EEAB23004BCC26 /* prod_2.png */,
+				419F820B18EEAB23004BCC26 /* prod_3.png */,
+				419F820118EEA8D7004BCC26 /* sid_prod.png */,
+				419F820218EEA8D7004BCC26 /* sid_quit.png */,
+				419F820318EEA8D7004BCC26 /* sid_shop.png */,
+				419F820418EEA8D7004BCC26 /* sid_trend.png */,
+				411DBE7218EB64FF00365328 /* product_ribbon */,
+				413BAFAF18EB09830034BFC8 /* reveal-icon.png */,
 				413BAF9918EAD07D0034BFC8 /* signin_bg.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
 		};
-		413BAFA118EAE6840034BFC8 /* Models */ = {
+		413BAFAE18EAE8AC0034BFC8 /* ProductViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				413BAFA318EAE6A60034BFC8 /* User.h */,
-				413BAFA418EAE6A60034BFC8 /* User.m */,
-				413BAFA618EAE7740034BFC8 /* Product.h */,
-				413BAFA718EAE7740034BFC8 /* Product.m */,
+				4103921118EC020A004388B8 /* ProductDetailViewController */,
+				4103920E18EC01D0004388B8 /* ProductAddViewController */,
+				4103920F18EC01E0004388B8 /* ProductListViewController */,
 			);
-			name = Models;
+			name = ProductViewControllers;
 			sourceTree = "<group>";
 		};
-		413BAFA218EAE6890034BFC8 /* UIDesign */ = {
+		413BAFB218EB099A0034BFC8 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				413BAF9518EACB080034BFC8 /* UICustomize.h */,
-				413BAF9618EACB080034BFC8 /* UICustomize.m */,
-				413BAF9E18EADA9A0034BFC8 /* UIColors.h */,
-				413BAF9F18EADA9A0034BFC8 /* UIColors.m */,
+				411DBE4E18EB4C0C00365328 /* JASidePanel */,
 			);
-			name = UIDesign;
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,10 +485,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4103921618EC022F004388B8 /* ProductDetailViewController.xib in Resources */,
 				413BAF9A18EAD07D0034BFC8 /* signin_bg.png in Resources */,
+				419F820C18EEAB23004BCC26 /* prod_1.png in Resources */,
+				419F820718EEA8D7004BCC26 /* sid_shop.png in Resources */,
+				4103921C18EC53BA004388B8 /* SignUpViewController.xib in Resources */,
+				419F820618EEA8D7004BCC26 /* sid_quit.png in Resources */,
+				419F820E18EEAB23004BCC26 /* prod_3.png in Resources */,
+				419F820D18EEAB23004BCC26 /* prod_2.png in Resources */,
+				419F820518EEA8D7004BCC26 /* sid_prod.png in Resources */,
+				411DBE6018EB565900365328 /* WishListViewController.xib in Resources */,
+				411DBE8518EB80DE00365328 /* ProductAddViewController.xib in Resources */,
+				411DBE7118EB617200365328 /* CustomProductCell.xib in Resources */,
+				419F820818EEA8D7004BCC26 /* sid_trend.png in Resources */,
+				411DBE6C18EB60D200365328 /* ProductListViewController.xib in Resources */,
+				411DBE5A18EB4CF100365328 /* SidebarViewController.xib in Resources */,
 				413BAF6718EAC8E00034BFC8 /* InfoPlist.strings in Resources */,
+				411DBE7318EB64FF00365328 /* product_ribbon in Resources */,
 				413BAF9018EACAB60034BFC8 /* SignInViewController.xib in Resources */,
+				4103922018EC767A004388B8 /* dbClickChic.sqlite in Resources */,
 				413BAF6F18EAC8E00034BFC8 /* Images.xcassets in Resources */,
+				413BAFB018EB09830034BFC8 /* reveal-icon.png in Resources */,
+				419F820018EEA36C004BCC26 /* CustomSidebarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,13 +525,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4103920B18EBF807004388B8 /* SQLManager.m in Sources */,
+				4103922618ECBA78004388B8 /* UserDefaults.m in Sources */,
+				4103922318EC7F78004388B8 /* FormatError.m in Sources */,
+				419F81FF18EEA36C004BCC26 /* CustomSidebarCell.m in Sources */,
 				413BAFA818EAE7740034BFC8 /* Product.m in Sources */,
+				411DBE5F18EB565900365328 /* WishListViewController.m in Sources */,
 				413BAF6D18EAC8E00034BFC8 /* AppDelegate.m in Sources */,
+				4103921B18EC53BA004388B8 /* SignUpViewController.m in Sources */,
 				413BAF9718EACB080034BFC8 /* UICustomize.m in Sources */,
 				413BAFA518EAE6A60034BFC8 /* User.m in Sources */,
+				411DBE5418EB4C2000365328 /* UIViewController+JASidePanel.m in Sources */,
+				411DBE6B18EB60D200365328 /* ProductListViewController.m in Sources */,
+				411DBE7018EB617200365328 /* CustomProductCell.m in Sources */,
+				411DBE5318EB4C2000365328 /* JASidePanelController.m in Sources */,
 				413BAF8F18EACAB60034BFC8 /* SignInViewController.m in Sources */,
+				4103921518EC022F004388B8 /* ProductDetailViewController.m in Sources */,
+				411DBE8418EB80DE00365328 /* ProductAddViewController.m in Sources */,
 				413BAFA018EADA9A0034BFC8 /* UIColors.m in Sources */,
 				413BAF6918EAC8E00034BFC8 /* main.m in Sources */,
+				411DBE5918EB4CF100365328 /* SidebarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +741,7 @@
 				413BAF8718EAC8E00034BFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		413BAF8818EAC8E00034BFC8 /* Build configuration list for PBXNativeTarget "iOs_ClickChickLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +750,7 @@
 				413BAF8A18EAC8E00034BFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

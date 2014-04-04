@@ -1,24 +1,22 @@
 //
-//  SignInViewController.m
+//  SignUpViewController.m
 //  iOs_ClickChickLogin
 //
-//  Created by Roberto Marco on 01/04/14.
+//  Created by Roberto Marco on 02/04/14.
 //  Copyright (c) 2014 Roberto Marco. All rights reserved.
 //
 
+#import "SignUpViewController.h"
 #import "SignInViewController.h"
-
 #import "JASidePanelController.h"
 #import "SidebarViewController.h"
 #import "ProductListViewController.h"
-#import "SignUpViewController.h"
-#import "User.h"
 
-@interface SignInViewController ()
+@interface SignUpViewController ()
 
 @end
 
-@implementation SignInViewController
+@implementation SignUpViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,8 +32,9 @@
     [super viewDidLoad];
     [self setupAppearence];
     
-    [self.textfieldUsername setDelegate:self];
     [self.textfieldPassword setDelegate:self];
+    [self.textfieldEmail setDelegate:self];
+    [self.textfieldUsername setDelegate:self];
     
     [self.navigationController setNavigationBarHidden:YES];
 }
@@ -54,55 +53,43 @@
     [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 
-# pragma mark - UITextfield Delegate Methods
+# pragma mark - UITextField Delegate Methods
 
--(BOOL)textFieldShouldClear:(UITextField *)textField {
+- (BOOL) textFieldShouldClear:(UITextField *)textField {
     return YES;
 }
 
--(BOOL)textFieldShouldReturn:(UITextField *)textField {
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return YES;
 }
 
-
-#pragma mark - Private Methods
+# pragma mark - Private Methods
 
 -(void) setupAppearence {
-    [[UICustomize sharedInstance] setLoginStyleButton:self.buttonConnect color:[UIColors kCyanColor]];
+    [[UICustomize sharedInstance] setLoginStyleButton:self.buttonNext color:[UIColors kCyanColor]];
     [[UICustomize sharedInstance] setLoginStyleButton:self.buttonFacebook color:[UIColors kBlueColor]];
     [[UICustomize sharedInstance] setLoginStyleTextfield:self.textfieldUsername];
+    [[UICustomize sharedInstance] setLoginStyleTextfield:self.textfieldEmail];
     [[UICustomize sharedInstance] setLoginStyleTextfield:self.textfieldPassword];
     
-    [[UICustomize sharedInstance] setViewAsShadow:self.viewShadowConnect];
+    [[UICustomize sharedInstance] setViewAsShadow:self.viewShadowRegister];
     [[UICustomize sharedInstance] setViewAsShadow:self.viewShadowFacebook];
 }
 
+
 -(BOOL) isTextfieldError
 {
-    if ((![[FormatError sharedInstance] isValidNotNullString:self.textfieldUsername.text]) ||
+    if ((![[FormatError sharedInstance] isValidEmail:self.textfieldEmail.text Strict:NO]) ||
+        (![[FormatError sharedInstance] isValidNotNullString:self.textfieldUsername.text]) ||
         (![[FormatError sharedInstance] isValidNotNullString:self.textfieldPassword.text]))
-        
+      
         return YES;
     
     else
         return NO;
 }
 
--(BOOL) isLoginSuccessfull:(NSString*)username password:(NSString*)password {
-
-    NSArray *users = [[SQLManager sharedInstance] findUserByUsername:username];
-    User *user = [[User alloc] init];
-    
-    if ([users count] > 0)
-    {
-        user = [users objectAtIndex:0];
-        return ([user.password isEqualToString:password] ? YES : NO);
-    } else {
-        NSLog(@"User doesnt exist in database");
-        return NO;
-    }
-}
 
 -(void) showAlert:(NSString *)title message:(NSString*)message
 {
@@ -110,23 +97,42 @@
     [alert show];
 }
 
-#pragma mark - IBAction
-
-- (IBAction)pushConnect:(id)sender {
+- (BOOL) isUsernameExist:(NSString*)username
+{
+    NSMutableArray *users = [[NSMutableArray alloc] initWithCapacity:0];
+    users = [[SQLManager sharedInstance] findUserByUsername:username];
     
+    if ([users count] > 0)
+        return YES;
+    else
+        return NO;
+}
+
+# pragma mark - IBAction Methods
+- (IBAction)pushLoginButton:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (IBAction)pushNextButton:(id)sender {
     if ([self isTextfieldError])
     {
-        [self showAlert:@"Invalid Sign In Information" message:@"Seems there are problems with your sign in information"];
+        [self showAlert:@"Invalid Sign Up Information" message:@"Seems there are problems with your sign up information"];
     } else {
         
-        if (![self isLoginSuccessfull:self.textfieldUsername.text password:self.textfieldPassword.text]) {
-            [self showAlert:@"Invalid Sign In Information" message:@"User/Password incorrect! Try again!"];
+        if ([self isUsernameExist:self.textfieldUsername.text]) {
+            [self showAlert:@"Invalid Sign Up Information" message:@"Username has been taken! Change it!"];
         } else {
             
-            NSMutableArray *arrayUser = [[SQLManager sharedInstance] findUserByUsername:self.textfieldUsername.text];
-            User *user = [[User alloc] init];
-            user = [arrayUser objectAtIndex:0];
+            User *user = [[User alloc] initWithParams:0 username:self.textfieldUsername.text password:self.textfieldPassword.text email:self.textfieldEmail.text];
             
+            // Add user to database
+            [[SQLManager sharedInstance] addUser:user];
+            
+            // Before saveUserDefaults, we need user_id
+            NSMutableArray *arrayUser = [[SQLManager sharedInstance] findUserByUsername:self.textfieldUsername.text];
+            user = [arrayUser objectAtIndex:0];            
+            
+            // Save user as UserDefaults - User active
             [[UserDefaults sharedInstance] saveUserDefaults:user];
             
             self.viewController = [[JASidePanelController alloc] init];
@@ -142,11 +148,6 @@
             [self.navigationController presentViewController:self.viewController animated:YES completion:nil];
         }
     }
-}
-
-- (IBAction)pushSignUpButton:(id)sender {
     
-    SignUpViewController *signupViewController = [[SignUpViewController alloc] initWithNibName:@"SignUpViewController" bundle:nil];
-    [self.navigationController pushViewController:signupViewController animated:YES];
 }
 @end
